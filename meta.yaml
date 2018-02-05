@@ -1,0 +1,7 @@
+package:
+  name: arch-{{ architecture }}
+  version: 1.0
+
+build:
+  track_features:
+  - arch_{{ architecture }}
