@@ -1,3 +1,6 @@
 architecture:
   - sandybridge
   - ivybridge
+  - haswell
+  - broadwell
+  - bdver2
