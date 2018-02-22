@@ -1,11 +1,12 @@
 pipeline {
-  agent any
+  agent { label 'conda-build' }
   environment {
     tmpdir = "${pwd tmp: true}"
   }
   stages {
     stage('build') {
       steps {
+        sh 'env'
         sh 'if [ -e pre-build.sh ]; then ./pre-build.sh; fi'
         sh '''#!/bin/bash
 set -e
