@@ -12,8 +12,9 @@ but this then makes choosing the correct package a pain.
 
 This metapackage provides several conda packages that track certain "features".
 Basically, if you have a sandybridge CPU, you should install the
-`arch-sandybrige` metapackage, which will cause conda to prefer packages built
-with the `arch_sandybridge` feature.
+`arch=*=sandybrige` metapackage (that is, any version of the `arch` package
+with the build string `sandybridge`), which will cause conda to prefer packages
+built with the `arch_sandybridge` feature.
 
 ## Prerequisites
 

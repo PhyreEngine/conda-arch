@@ -1,7 +1,8 @@
 package:
-  name: arch-{{ architecture }}
-  version: 1.0
+  name: arch
+  version: 2.0
 
 build:
+  string: {{ architecture }}
   track_features:
   - arch_{{ architecture }}
