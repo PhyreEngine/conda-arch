@@ -24,9 +24,9 @@ built with the `arch_sandybridge` feature.
 
 ## Building
 
-You should be able to build this package by simply running `conda build .`.
-This repository includes `conda_build_config.yaml`, which causes multiple
-versions of this metapackage to be built, one for each architecture.
+You should be able to build this package by simply running `./build`. This
+repository includes `conda_build_config.yaml`, which causes multiple versions
+of this metapackage to be built, one for each architecture.
 
 [conda]: https://conda.io
 [miniconda]: https://conda.io/miniconda.html
